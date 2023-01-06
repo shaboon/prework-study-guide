@@ -4,12 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
     <header id="top">
       <h1>Prework Study Guide</h1>
-      <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <button class="header-img" onclick="location.href='https://github.com/shaboon'" type="button"><img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." /></button>
     </header>
     <main>
       <section class="card" id="html-section">
@@ -27,6 +28,9 @@
         <ul>
           <li>CSS adds style to a webpage, can help make it more presentable</li>
           <li>If we continue the house analogy, then CSS is a lot like the paint and curtains of a house</li>
+          <li>The "." in CSS is a class selector, but which the affected style changes all classes regardless of element</li>
+          <li>CSS elements can simply be designated before the "{}" and the html will apply said style given the proper priority</li>
+          <li>In order for the CSS to take effect, it needs to be linked in the html properly using both "rel:="stylesheet"" and "href="file-path""</li>
         </ul>
       </section>
 
@@ -36,6 +40,15 @@
           <li>Git is used to submit, control and organize your work regarding well any code.</li>
           <li>The code "<button>git commit</button> -m" should never end like that, it always will need a note or it throws a mega tantrum</li>
           <li>Before ever using <button>git push</button> you should always use <button>git pull</button> origin main to ensure there are no conflicts</li>
+          <li>A basic git flow will go:</li>
+            <ul>
+              <li><button>git status</button></li>
+              <li><button>git add</button> -A</li>
+              <li><button>git commit</button> -m "insert comment/summary"</li>
+              <li><button>git pull</button> origin main</li>
+              <li><button>git push</button> origin branchname</li>
+
+            </ul>
         </ul>
       </section>
 
