@@ -6,7 +6,7 @@
 header,
 footer {
     width: 100%;
-    height: 330px;
+    height: 280px;
     background-color: #ee5801;
     color: white;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -20,8 +20,8 @@ h2 {
 
 img {
     display: block;
-    height: 256px;
-    width: 256px;
+    height: 150px;
+    width: 150px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -50,8 +50,10 @@ html {
 
 .header-img {
     display: block;
-    height: 256px;
-    width: 256px;
+    height: 170px;
+    width: 170px;
     margin-left: auto;
     margin-right: auto;
+    border: 60px, #000000;
+    border-radius: 20px;
 }
