@@ -56,4 +56,11 @@ html {
     margin-right: auto;
     border: 60px, #000000;
     border-radius: 20px;
+    background-color: #D6F5F5;
+}
+
+
+
+button:active {
+    background-color: #000000;
 }
